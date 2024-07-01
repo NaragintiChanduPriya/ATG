@@ -41,7 +41,7 @@
   .mediab{
     @apply flex items-center justify-around h-[38px] w-[320px]  mt-[10px] text-black border-[1px] border-[#e0e0e0] text-[14px] m-auto;
 }
-.create-btn{
+.create-bt{
     @apply h-[40px] w-[280px] rounded-[20px] my-[15px] bg-[#2F6CE5] flex items-center justify-center;
 
 }
