@@ -41,7 +41,7 @@ const Signup = ({edit}) => {
                             </div> 
                             }
                             <div className='signcreate'>
-                            <div className='create-btn' ><button>{!signup?"Create Account" :"Sign In" }</button></div>
+                            <div className='create-bt' ><button>{!signup?"Create Account" :"Sign In" }</button></div>
                             <p onClick={handleSignup}>{!signup?"or, Sign In":"or, Create Account"}</p>
                             </div>
                             <div className='mediab' ><img src={fb} alt="" /><p>{!signup?"Sign up with Facebook" :"Sign in with Facebook" }</p></div>
