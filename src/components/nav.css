@@ -1,0 +1,43 @@
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    
+}
+
+.nav{
+    @apply md:flex items-center lg:justify-around h-[72px] w-full sticky top-0 bg-white justify-between p-[25px] hidden;
+}
+.logo{
+    @apply w-[163px] h-[24px];
+}
+.create-account{
+    @apply   flex items-center;
+}
+.create-account p{
+    @apply text-[16px] w-[183px] h-[21px] leading-[21px] font-semibold;
+
+}
+.create-account span{
+    @apply text-[#2F6CE5];
+
+}
+.create-account .userlogin{
+    @apply flex items-center justify-around;
+}
+.search-box{
+    @apply hidden lg:w-[360px] lg:h-[42px] rounded-[21px] lg:flex items-center  lg:bg-[#F2F2F2];
+    
+}
+.search-box p{
+    @apply w-[242px] h-[19px] text-[14px] leading-[18px]  text-[#5C5C5C];
+    
+}
+.search-box img{
+  @apply  my-[10px] mx-[14px];
+}
+.logout{
+    @apply text-[black] text-[14px] bg-[#EDEEF0] absolute top-[46px] right-[80px] cursor-pointer px-[5px] py-[2px] rounded-[2px];
+}
+.logout:hover{
+    @apply text-[#EDEEF0]  bg-[black] cursor-pointer;
+
+}

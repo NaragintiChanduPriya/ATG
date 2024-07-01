@@ -1,0 +1,121 @@
+.post-flex{
+    @apply flex items-center;
+}
+.whole-box{
+    @apply lg:w-[1040px]  lg:flex  lg:justify-between lg:ml-[200px]  mx-[5%];
+
+}
+.search-loc{
+    @apply flex items-center border-[#B8B8B8] border-b-[1px] w-[243px] mt-[80px] pb-2;
+}
+.search-loc .input{
+    @apply border-none outline-none  focus:outline-none focus:ring-0 text-[14px] leading-[18px];
+}
+.warn-mes {
+    @apply flex items-center  w-[243px] h-[32px] mt-[32px];
+}
+.warn-mes p{
+    @apply text-[12px] leading-[16px] text-[#808080];
+}
+.post-container{
+    @apply lg:w-[692px]  lg:h-[472px] h-fit w-[100%] rounded-[4px] border-[#E0E0E0] border mb-[16px];
+}
+.post-container .userimg{
+    @apply lg:w-[692px] w-[100%]  h-[220px] rounded-t-[4px] rounded-b-[0px];
+    
+}
+.post-container .title{
+    @apply lg:text-[18px] text-[12px] sm:text-[14px] leading-[23.4px] text-black font-semibold;
+}
+.post-container .padd{
+    @apply p-[20px];
+}
+.heading-box{
+    @apply flex justify-between items-center mt-[10px] mb-[12px];
+
+}
+.heading-box h3{
+    @apply text-[22px] leading-[30px] lg:w-[600px] w-fit font-extrabold;
+}
+.padd .desc{
+    @apply text-[#5C5C5C] text-[19px] leading-[26px] lg:w-[652px] w-fit mb-[20px] ;
+}
+.padd .user-box{
+    @apply flex justify-between items-center;
+}
+.padd .user-col{
+    @apply flex justify-between  items-center;
+
+
+}
+.user-like{
+    @apply flex justify-between items-center w-[95px] h-[18px]  mr-[25px];
+}
+.user-col .share-img{
+    @apply w-[42px] h-[36px];
+}
+.user-like p{
+    @apply text-[14px] leading-[19px] text-[#525252];
+}
+.user-box .user{
+    @apply mr-[10px];
+}
+.user-box .user-name{
+    @apply text-[18px] leading-[24px] text-black h-[24px] font-semibold;
+}
+.padd .event-date{
+    @apply w-[358px] h-[20px] flex justify-around sm:justify-between mt-[12px] mb-[16px];
+}
+.padd .visitbtn{
+    @apply lg:w-[652px] w-[90%] rounded-[8px] h-[38px] border-[1px] border-[#A9AEB8]  text-center mb-[20px] flex items-center justify-center;
+}
+.visitbtn button{
+    @apply text-[13px] leading-[19px] w-[80px] h-[18px] text-[#E56135] font-semibold;
+}
+.jobsec{
+    @apply h-[269px] border-[1px] border-[#e0e0e0] rounded-[4px] p-[20px] mb-[40px] w-[100%] lg:w-[692px];
+}
+.jobsec .event-date{
+    @apply w-[399px];
+}
+.jobsec .visitbtn button{
+    @apply text-[#02B875] w-[118px];
+}
+.groups{
+    @apply w-[240px] h-[252px] mt-[54px];
+}
+.group-head{
+    @apply flex items-center;
+}
+.group{
+    @apply flex justify-between items-center;
+
+}
+.groupsec{
+    @apply flex justify-between items-center mt-[12px] mb-[11px];
+}
+.groupsec p{
+    @apply text-[14px] leading-[19px] text-black w-[104px] h-[19px];
+}
+.groupsec img{
+    @apply h-[36px] w-[36px] mr-[12px];
+}
+.follow{
+    @apply w-[60px] h-[24px] rounded-[14px] bg-[#EDEEF0] text-black;
+
+}
+.followed{
+    @apply w-[73px] h-[24px] rounded-[14px] bg-black text-[#EDEEF0];
+}
+.alignp{
+@apply text-right text-[#2F6CE5] leading-[16px] text-[12px] mt-[43px];
+}
+.leftbar{
+   @apply hidden;
+   
+}
+@media (min-width: 1300px) {
+     .leftbar{
+         display: block;
+     }
+}

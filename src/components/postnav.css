@@ -1,0 +1,57 @@
+.container{
+    @apply md:flex items-center flex-col mb-[28px];
+}
+
+
+.line{
+    @apply hidden md:border-[1px] lg:w-[1296px] md:w-[80%] text-[#E0E0E0] mt-[32px];
+}
+
+.pnav{
+    @apply lg:w-[1040px] md:w-[75%] md:flex items-center justify-between mt-4 border-b text-[#E0E0E0] pb-[12px] hidden;
+}
+.access,.option{
+    @apply flex items-center ; 
+}
+.access{
+    @apply justify-around;
+}
+.option{
+    @apply lg:w-[358px] lg:h-[21px] md:justify-around  md:h-[18px] justify-between;
+}
+.option p{
+    @apply text-[16px] md:text-[14px] md:p-[10px] text-[#8A8A8A] leading-[21px];
+}
+.option .dark{
+    @apply text-black;
+}
+.postbutton{
+@apply lg:w-[133px] md:w-[105px] h-[36px] text-black text-[15px] leading-[20px] flex items-center bg-[#EDEEF0] rounded-[4px] justify-around mr-[16px];
+
+
+}
+.joinbutton{
+    @apply flex items-center w-[125px] h-[36px]  bg-[#2F6CE5] rounded-[4px] leading-[20px] text-[15px] justify-around;
+}
+.leavebtn{
+    @apply flex items-center w-[125px] h-[36px] text-black bg-[#808080] rounded-[4px] leading-[20px] text-[15px] justify-around;
+
+}
+.pnav-sm{
+    @apply md:hidden flex items-center justify-between px-[15px] py-[20px];
+
+}
+.pnav-sm button{
+    @apply flex items-center justify-between w-[106px] h-[32px] bg-[white] text-black gap-2 px-2 py-[8px] font-semibold rounded-[5px] ;
+}
+.pnav-sm h2{
+    @apply font-semibold
+}
+/* ............... */
+.edit-box{
+    @apply bg-gradient-to-t from-[#FF5C5C] to-[#F0568A] fixed right-[18px] bottom-[18px] w-[54px] h-[54px] rounded-[50%] flex items-center justify-center sm:hidden;
+}
+.edit-box:hover{
+   cursor: pointer;
+   background-color: green;
+}
