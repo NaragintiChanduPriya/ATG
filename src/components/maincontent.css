@@ -1,6 +1,6 @@
 .main{
     background: url('../assets/mainimg.png');
-    /* z-index: -1; */
+    z-index: -1;
     
 @apply  h-[300px] sm:h-[440px] bg-no-repeat bg-cover bg-center  text-white  relative bg-[red] w-[full];
 }
