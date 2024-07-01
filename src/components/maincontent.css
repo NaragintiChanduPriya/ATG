@@ -1,6 +1,5 @@
 .main{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%),
-    url('../assets/mainimg.png');
+    background: url('../assets/mainimg.png');
     /* z-index: -1; */
     
 @apply  h-[300px] sm:h-[440px] bg-no-repeat bg-cover bg-center  text-white  relative bg-[red] w-[full];
